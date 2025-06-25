@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden; /* Prevents scrollbars from appearing due to canvas */
+}
+
+#root, html, body { /* Ensure root and html also take full height */
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+}
+
+canvas {
+  display: block; /* Prevents extra space below canvas */
+}
